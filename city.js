@@ -108,7 +108,7 @@ app.delete("/cities/:id", async (req, res) => {
 });
 
 // Get Cities API
-app.get("/cities", async (req, res) => {
+app.get("/", async (req, res) => {
   const { page = 1, limit = 10, filter, sort, search, projection } = req.query;
 
   let whereClause = filter ? `WHERE ${filter}` : "";
