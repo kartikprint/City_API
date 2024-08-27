@@ -2,7 +2,7 @@
   "name": "city-management-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",  // Adjust this if the entry point is different
+  "main": "city.js",  // Adjust this if the entry point is different
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node citytable.js",
